@@ -1,0 +1,98 @@
+body {
+    background: #000a2e;
+}
+
+.bar {
+    width: 45px;
+    min-height: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #aeaeae;
+}
+
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graph{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.toolbar{
+    background-color: #7d0bffef;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+    height: 20px;
+    width: 100%; 
+    padding-left: 10px;
+}
+.toolbar a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    line-height: 1.2;
+    z-index: 9;
+}
+
+#userName{
+    float: right;
+}
+
+#projectName{
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userInfo{
+    color: white;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.userInfo p{
+    margin: 5px;
+}
+
+.Button{
+    background-color: #9666ffff;
+    display: inline-block;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+#contribute{position: absolute; left: 0}
+#withdraw{position: absolute; right: 0}
+#total{position: absolute; left: 0}
+#all{position: absolute; right: 0}
+
+#mainDiv {
+    justify-items: center;
+}
+
+#graphBackground{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ffffffef;
+    height: 350px;
+    width: 460px; 
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#groupMenu{
+    height: 150px;
+    width: 460px; 
+    margin-top: 60px;
+    margin-bottom: 15px;
+    border: solid;
+    border-color: darkgray;
+}
